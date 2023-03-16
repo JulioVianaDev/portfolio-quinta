@@ -1,0 +1,14 @@
+body{
+  background-color: black;
+}
+#title-nav{
+  text-decoration: none;
+  color: white;
+  font-size: 2rem;
+}
+#title-nav:hover{
+  color:rgb(204, 204, 203);
+}
+a{
+  cursor: pointer;
+}
