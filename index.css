@@ -5,10 +5,39 @@ body{
   text-decoration: none;
   color: white;
   font-size: 2rem;
+  margin-left: 14px;
 }
 #title-nav:hover{
   color:rgb(204, 204, 203);
 }
 a{
   cursor: pointer;
+}
+#img-nav{
+  width: 50px;
+  height:  50px;
+}
+.navbar{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding-inline: 15px;
+}
+#esquerda{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+#links{
+  font-size: 1.5rem;
+}
+#links a{
+  margin-inline: 15px ;
+  color: white;
+}
+#links a:hover{
+  margin-inline: 15px ;
+  color: white;
+  color:rgb(204, 204, 203);
 }
