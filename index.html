@@ -33,10 +33,19 @@
   </div>
   <div class="sessao" id="contato">
     <form >
-      <label>Nome:</label>
-      <input type="text">
-      <label>Email</label>
-      <input type="email">
+      <label for="nome">Nome:</label><br>
+      <input 
+        id="nome"
+        value="valor inicial" 
+        placeholder="Digite seu nome" 
+        type="text"
+      ><br>
+      <label for="email">Email</label><br>
+      <input id="email"placeholder="Digite seu email" type="email"><br>
+      <label for="idade">idade</label><br>
+      <input max="5" type="number" id="idade"><br>
+      <textarea placeholder="motivo do contato"></textarea><br>
+      <!-- <input type="submit" value="comfirmar"> -->
       <button type="submit">Enviar</button>
     </form>
   </div>
