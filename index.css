@@ -59,3 +59,15 @@ a{
 #projetos{
   background-color: yellowgreen;
 }
+#quadrado{
+  position: absolute;
+  margin-top: 50px;
+  margin-left: 50px;
+  width: 256px;
+  height: 256px;
+  background-color: aliceblue;
+  padding: 10px;
+  border-radius: 10px;
+  text-align: center;
+  box-shadow: black 20px 10px 3px 6px;
+}
